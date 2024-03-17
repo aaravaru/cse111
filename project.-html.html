@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <title>Movie booking</title>
+</head>
+<body>
+    <section class="top-bar">
+        <div class="left-content">
+            <img src="https://c8.alamy.com/comp/2RGT38C/pvr-letter-logo-design-with-polygon-shape-pvr-polygon-and-cube-shape-logo-design-pvr-hexagon-vector-logo-template-white-and-black-colors-pvr-monogr-2RGT38C.jpg" alt="" class="pvr">
+            <h2 class="title">Cinemas</h2>
+            <ul class="navigation">
+                <li><a href="#" class="side-linked">Home</a></li>
+                <li><a href="#" class="side-linked">Movies</a></li>
+                <li><a href="#" class="side-linked">Theaters</a></li>
+                <li><a href="#" class="side-linked">News</a></li>
+            </ul>
+        </div>
+        <div class="right-content">
+            <img src="filter.png" alt="" class="filter">
+            <img src="cart.png" alt="" class="cart">
+            <img src="help.png" alt="" class="help">
+            <div class="profile-img-box">
+                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="">
+            </div>
+            <img src="./assets/images/menu.png" alt="" class="menu">
+        </div>
+    </section>
+    <section class="main-container">
+        <div class="sidebar">
+            <form action="#">
+                <div class="sidebar-groups">
+                    <h3 class="sg-title">Categories</h3>
+                    <input type="checkbox" id="adventure" name="adventure" value="adventure">
+                    <label for="adventure">Adventure</label><br>
+                    <input type="checkbox" id="action" name="action" value="action">
+                    <label for="action">Action</label><br>
+                    <input type="checkbox" id="animation" name="animation" value="animation">
+                    <label for="animation">Animation</label><br>
+                    <input type="checkbox" id="comedy" name="comedy" value="comedy">
+                    <label for="comedy">Comedy</label><br>
+                    <input type="checkbox" id="science" name="science" value="science">
+                    <label for="science">Science Fiction</label><br>
+                    <input type="checkbox" id="thriller" name="thriller" value="thriller">
+                    <label for="thriller">Thriller</label><br>
+                    <input type="checkbox" id="history" name="history" value="history">
+                    <label for="history">History</label><br>
+                    <input type="checkbox" id="documentary" name="documentary" value="documentary">
+                    <label for="documentary">Documentary</label><br>
+                    <input type="checkbox" id="fantasy" name="fantasy" value="fantasy">
+                    <label for="fantasy">Fantasy</label><br>
+                </div>
+                <div class="sidebar-groups">
+                    <h3 class="sg-title">Language</h3>
+                    <input type="checkbox" id="english" name="english" value="english">
+                    <label for="english">English</label><br>
+                    <input type="checkbox" id="spanish" name="spanish" value="spanish">
+                    <label for="spanish">Spanish</label><br>
+                    <input type="checkbox" id="hindi" name="hindi" value="hindi">
+                    <label for="hindi">Hindi</label><br>
+                </div>
+                <div class="sidebar-groups">
+                    <h3 class="sg-title">Time</h3>
+                    <input type="radio" id="morning" name="time" value="morning">
+                    <label for="morning">Morning</label><br>
+                    <input type="radio" id="night" name="time" value="night">
+                    <label for="night">Night</label><br>
+                </div>
+                <div class="sidebar-groups">
+                    <a href="#" class="btn-l btn">Apply Filters</a>
+                </div>
+            </form>
+        </div>
+        <div class="movies-container">
+            <div class="upcoming-img-box">
+                <img src="https://i.ytimg.com/vi/YaewItZ6rlg/maxresdefault.jpg" alt="">
+                <p class="upcoming-title">Upcoming Movie</p>
+                <div class="buttons">
+                    <a href="#" class="btn">Book Now</a>
+                    <a href="#" class="btn-alt btn">Play Trailer</a>
+                </div>
+            </div>
+            <div class="current-movies">
+                <div class="current-movie">
+                    <div class="cm-img-box">
+                        <img src="jawan.jpeg.jpeg" alt="">
+                    </div>
+                    <h3 class="movie-title">Jawan</h3>
+                    <p class="screen-name">Screen : Platinum</p>
+                    <div class="booking">
+                        <h2 class="price">Rs.200</h2>
+                        <a href="#" class="btn">Buy Tickets</a>
+                    </div>
+                </div>
+                <div class="current-movie">
+                    <div class="cm-img-box">
+                        <img src="exorcist.jpeg.jpeg" alt="">
+                    </div>
+                    <h3 class="movie-title">The Exorcist</h3>
+                    <p class="screen-name">Screen : Gold</p>
+                    <div class="booking">
+                        <h2 class="price">Rs.400</h2>
+                        <a href="#" class="btn">Buy Tickets</a>
+                    </div>
+                </div>
+                <div class="current-movie">
+                    <div class="cm-img-box">
+                        <img src="fam.jpeg.jpeg" alt="">
+                    </div>
+                    <h3 class="movie-title">The Indian Family</h3>
+                    <p class="screen-name">Screen : Silver</p>
+                    <div class="booking">
+                        <h2 class="price">Rs.100</h2>
+                        <a href="#" class="btn">Buy Tickets</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html> 
